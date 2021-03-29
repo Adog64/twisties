@@ -114,7 +114,3 @@ class ScrambleClk:
 
     def get_wca_scramble(self):
         return self.scr.call("util_scramble.getClockWCAScramble")
-
-if __name__ == '__main__':
-    wca = WCA_Scrambler()
-    print(wca.get_wca_scramble(input('Cubetype: ')))
